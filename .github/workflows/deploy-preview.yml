@@ -29,4 +29,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./build/client --project-name=my_remix_app_2
+          command: pages deploy ./build/client --project-name=my-remix-app-2
