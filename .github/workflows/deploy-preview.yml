@@ -2,8 +2,8 @@ name: Deploy preview
 
 on:
   push:
-    branches:
-      - preview
+    branches-ignore:
+      - main
 
 jobs:
   deploy:
